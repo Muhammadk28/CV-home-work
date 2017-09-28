@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-transform: capitalize;
+}
+body{
+    font-size: 20px;
+    background: #111;
+    font-family: serif;
+}
+p{
+    line-height: 30px;
+}
+.container {
+    width: 1170px;;
+    margin:0 auto;
+}
+.over::before, .over::after{
+    content: "";
+    display: table;
+}
+.over::after{
+    clear: both;
+}
+
+
+
+/*header area start*/
+header{
+    background: #999;
+    padding: 15px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    padding-top: 20px;
+}
+ img{
+     float:  left;
+     border-radius:50%;
+     margin-right: 50px;
+ }
+ .name{
+     float: left;
+     padding-top: 20px;
+ }
+ .name h1{
+     font-size: 50px;
+     font-weight: 900;
+ }
+ .name h3{
+     font-size: 30px;
+     font-weight: 600;
+ }
+ .right li{
+     text-transform: capitalize;
+     line-height: 30px;
+ }
+
+
+
+
+
+
+
+
+ /* main content start*/
+ .main-content{
+    background: #eee;
+    padding: 20px 0 0;
+}
+ .blog{
+     border-bottom:2px solid #b1b1b1;
+     margin: 20px 50px;
+     padding-bottom:30px;
+ }
+ .blog:last-child {
+     padding-bottom: 0;
+ }
+ .blog:last-child{
+     border: none;
+ }
+ .blog h2{
+     font-style: italic;
+     float: left;
+     width:20%;
+     font-weight: 600;
+
+ }
+ .blogs{
+     width: 75%;
+     float: left;
+     margin-left: 50px;
+ }
+ .blogs input[type=submit]{
+     padding: 3px 10px;
+ }
+.blogs input[type=text], .blogs input[type=email]{
+    width:180px;
+    height:30px;
+}
+.blogs span{
+    font-style: italic;
+}
+.right{
+    float: right;
+}
+.pad{
+    margin-bottom: 15px;
+}
+.column{
+    width: 33%;
+    float: left;
+}
+ 
